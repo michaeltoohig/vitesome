@@ -17,20 +17,20 @@ dependencies:
 
 devDependencies:
   '@iconify-json/ant-design':
-    specifier: ^1.1.4
-    version: 1.1.4
+    specifier: ^1.1.10
+    version: 1.1.10
   '@iconify-json/logos':
-    specifier: ^1.1.19
-    version: 1.1.19
+    specifier: ^1.1.37
+    version: 1.1.37
   '@iconify-json/ph':
-    specifier: ^1.1.3
-    version: 1.1.3
+    specifier: ^1.1.6
+    version: 1.1.6
   '@iconify/iconify':
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.1.1
+    version: 3.1.1
   '@iconify/json':
-    specifier: ^2.1.153
-    version: 2.1.153
+    specifier: ^2.2.142
+    version: 2.2.142
   '@intlify/unplugin-vue-i18n':
     specifier: ^1.5.0
     version: 1.5.0(vue-i18n@9.2.2)
@@ -328,20 +328,20 @@ packages:
     dev: true
     optional: true
 
-  /@iconify-json/ant-design@1.1.4:
-    resolution: {integrity: sha512-bx8sSFrrJloQUdStRbBn3TMmeKWfbx51aVDF1fEOH/LGKXGiBmtybURjlTdQPwE7S0zhlXcve+agYHuGb2Q9hQ==}
+  /@iconify-json/ant-design@1.1.10:
+    resolution: {integrity: sha512-XgBEAl+3N0QIn3nDN9xFPw5WlU9IgnmJvis2Ev1au4Y6ITG4zReMglXi+I21xmfK3mnjFnfAteZ4EzLVKHm7Hw==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
 
-  /@iconify-json/logos@1.1.19:
-    resolution: {integrity: sha512-Q2YgFBqI+/7FgUm8ECn8DZLmIMbcQTPK1dVY/1MZiiP6W6jXwkrOluKodVMb8DHbk59L2JsNI7oajV7+sF55Dw==}
+  /@iconify-json/logos@1.1.37:
+    resolution: {integrity: sha512-H2S8frTEznk6paX2kMzeUGn4KSiykghvO0b8UvEDd1fFFzt0WxCXpP1tBv67XaWK99e6JgA34hhv4lRGAm1hJg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
 
-  /@iconify-json/ph@1.1.3:
-    resolution: {integrity: sha512-QSzWMGF8GiBPW89RpQ3bEwEjuRWTv/xxskStUpK7tsXlz3qoPTEM5CQxDUpzUmc9luAWViqD/shIUiuNhUeolw==}
+  /@iconify-json/ph@1.1.6:
+    resolution: {integrity: sha512-dexzEndlXQX/sbQhnEpA94Pby6JCGV2tZToSGcPPQpbilDGyk5VMd0ymusYoocRAn6+qLpGRvMoz5XFKGqP+VA==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
@@ -354,17 +354,17 @@ packages:
       - encoding
     dev: true
 
-  /@iconify/iconify@3.0.1:
-    resolution: {integrity: sha512-OPqVBTh8YsfrYZRVFv3OkmFNLqacM0dy/Oiw1h2wO+RZW5LieNGHlG2f9pzaeVRFWbEB8LHTeo8mcwgUTUbibQ==}
+  /@iconify/iconify@3.1.1:
+    resolution: {integrity: sha512-1nemfyD/OJzh9ALepH7YfuuP8BdEB24Skhd8DXWh0hzcOxImbb1ZizSZkpCzAwSZSGcJFmscIBaBQu+yLyWaxQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.1.153:
-    resolution: {integrity: sha512-9DSzK1DIbrbjDK+LV8PTF/pTM8wJOrmRETEvVP47na093F6LEvcOQnq7Ett51e/WW0mA32GIj7LpO9opyJ/gtQ==}
+  /@iconify/json@2.2.142:
+    resolution: {integrity: sha512-EfQv1GMGxOySdwaGR3+Diqudkwk4W299cNtcQhg7QAlH9x6FW9851raiYvdOsMZp0ya+Ye+evTTqxyZ4vEh5cw==}
     dependencies:
       '@iconify/types': 1.1.0
-      pathe: 0.3.4
+      pathe: 1.1.1
     dev: true
 
   /@iconify/types@1.1.0:
@@ -566,7 +566,7 @@ packages:
   /@purge-icons/generated@0.9.0:
     resolution: {integrity: sha512-s2t+1oVtGDV6KtqfCXtUOhxfeYvOdDF90IVm+nMs/6bUP0HeGZLslguuL/AibpwtfL4FA/oCsIu/RhwapgAdJw==}
     dependencies:
-      '@iconify/iconify': 3.0.1
+      '@iconify/iconify': 3.1.1
     dev: true
 
   /@rollup/pluginutils@5.0.2:
@@ -1057,7 +1057,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /colorette@2.0.19:
@@ -1333,8 +1333,8 @@ packages:
       universalify: 2.0.0
     dev: true
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -1665,10 +1665,6 @@ packages:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
 
-  /pathe@0.3.4:
-    resolution: {integrity: sha512-YWgqEdxf36R6vcsyj0A+yT/rDRPe0wui4J9gRR7T4whjU5Lx/jZOr75ckEgTNaLVQABAwsrlzHRpIKcCdXAQ5A==}
-    dev: true
-
   /pathe@1.0.0:
     resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
     dev: true
@@ -1755,7 +1751,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-parallel@1.2.0:
@@ -2040,7 +2036,7 @@ packages:
       resolve: 1.22.1
       rollup: 3.7.5
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vue-demi@0.12.5(vue@3.2.45):
