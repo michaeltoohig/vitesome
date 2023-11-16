@@ -12,7 +12,7 @@ import 'unfonts.css';
 import { Router } from '/@/router';
 
 // i18n
-import messages from '@intlify/vite-plugin-vue-i18n/messages';
+import messages from '@intlify/unplugin-vue-i18n/messages';
 
 const i18n = createI18n({
   locale: 'en',

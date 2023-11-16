@@ -68,7 +68,7 @@ setTimeout(() => {
         </li>
         <li class="cursor-pointer text-2xl">
           <a
-            href="https://github.com/alvarosabu"
+            href="https://github.com/michaeltoohig"
             rel="noreferrer"
             target="_blank"
             class="footer-link text-cyan-700 hover:text-cyan-500"
@@ -80,15 +80,24 @@ setTimeout(() => {
       </ul>
 
       <span class="text-xs"
+        >{{ t('forked_by') }}
+        <a
+          class="footer-link text-cyan-400 hover:text-cyan-500"
+          href="https://github.com/michaeltoohig/vitesome"
+          rel="noreferrer"
+          target="_blank"
+        >Michael Toohig</a
+      ></span>
+      <br />
+      <span class="text-xs"
         >{{ t('made_by') }}
         <a
           class="footer-link text-cyan-400 hover:text-cyan-500"
-          href="https://github.com/alvarosabu/vitesome"
+          href="https://github.com/alvarosabu"
           rel="noreferrer"
           target="_blank"
-          >Alvaro Saburido</a
-        ></span
-      >
+        >Alvaro Saburido</a
+      ></span>
     </footer>
   </div>
 </template>

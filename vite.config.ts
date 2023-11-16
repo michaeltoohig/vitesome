@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import Unocss from 'unocss/vite'
 import { resolve } from 'pathe';
 import vue from '@vitejs/plugin-vue';
-import VueI18n from '@intlify/vite-plugin-vue-i18n';
+import VueI18n from '@intlify/unplugin-vue-i18n/vite';
 import Components from 'unplugin-vue-components/vite'
 import Unfonts from 'unplugin-fonts/vite';
 import svgLoader from 'vite-svg-loader';
@@ -35,7 +35,7 @@ export default defineConfig({
 
     Unocss({ /* options */ }),
 
-    // https://github.com/intlify/vite-plugin-vue-i18n
+    // https://github.com/intlify/unplugin-vue-i18n
     VueI18n({
       include: [resolve(__dirname, './locales/**')],
     }),
