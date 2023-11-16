@@ -6,6 +6,7 @@ import { createI18n } from 'vue-i18n';
 
 import App from './App.vue';
 import './styles/base.css';
+import 'unfonts.css';
 
 // Router
 import { Router } from '/@/router';

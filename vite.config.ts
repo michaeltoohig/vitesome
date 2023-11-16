@@ -4,7 +4,7 @@ import { resolve } from 'pathe';
 import vue from '@vitejs/plugin-vue';
 import VueI18n from '@intlify/vite-plugin-vue-i18n';
 import Components from 'unplugin-vue-components/vite'
-import ViteFonts from 'vite-plugin-fonts';
+import Unfonts from 'unplugin-fonts/vite';
 import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
@@ -26,8 +26,8 @@ export default defineConfig({
       extensions: ['vue'],
       dts: 'src/components.d.ts',
     }),
-    // https://github.com/stafyniaksacha/vite-plugin-fonts#readme
-    ViteFonts({
+    // https://github.com/cssninjaStudio/unplugin-fonts#readme
+    Unfonts({
       google: {
         families: ['Open Sans', 'Montserrat', 'Fira Sans'],
       },
